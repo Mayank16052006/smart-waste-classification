@@ -1,0 +1,49 @@
+# Python environments
+venv/
+venv_legacy/
+__pycache__/
+*.pyc
+
+# Dataset and training files
+archive/
+archive 1/
+archive.zip
+archive 1.zip
+extra_data/
+error_analysis/
+real_world_test/
+
+# Installers and archives
+*.exe
+*.zip
+
+# Temporary files
+~$*
+.DS_Store
+
+# Old model files
+model/*.weights.h5
+model/keras_model.h5
+model/waste_classifier_new.keras
+model/waste_classifier_run_2026.keras
+model/waste_classifier_improved.keras
+model/waste_classifier_v2.keras
+model/waste_classifier_v3.keras
+
+# Keep final V4 model
+!model/waste_classifier_v4.keras
+# Local test images
+crumpled_*.jpg
+folded_*.jpg
+metal_test.png
+paper_*.jpg
+
+# Training and testing scripts
+analyze_errors.py
+check_validation.py
+test_model.py
+test_real_world.py
+train_model.py
+train_model_v3.py
+train_model_v4.py
+app_backup.py
